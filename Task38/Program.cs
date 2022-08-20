@@ -18,7 +18,7 @@ double DiffMaxMin(double[] array)
 {
     double minimum = array[0];
     double maximum = array[0];
-    //  double result = (maximum - minimum);
+   
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] < minimum)
